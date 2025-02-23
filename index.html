@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Document</title>
+    <style></style><!--css Line codes in Line-->
+    <link rel="" href=""><!--css styling external file-->
+    <script></script><!--Js Line codes-->
+</head>
+<body>
+    <!-- Formatting HTML Tag-->
+    <!--------------------- -->
+    <h2>----Formatting HTML Tag---</h2>
+    My First Html Page 
+    <h1 id="h90">This is Heading 1 </h1>
+    <h2>This is Heading 2</h2>
+    <h6>This is heading 6</h6>
+    <p> This is paragraph to desplay the text </p>
+    <p> This is paragraph <del> This is deleted tag </del> to desplay the text </p>
+    <p>My second <ins> This is an inserted tag </ins> paragraph text on decoment</p>
+    <b>This is a bold text </b></br>
+    <strong>This is a strong tag tells the browser that This text has an important document on it</strong></br>
+    <i> This is an italic tag</i></br>
+    <em>This is emphasize tag</em>
+    <u>This is an under Line Tag</u><br>
+    <s>This is stric tag</s>
+    
+    <p>This is two power two in mathematical formulas 2<sup>2</sup></p>
+    <p>This is ocsogin chemical formulas <b>O</b><Sup>2</Sup></p>
+    <p> This is Hedrogin chemical formulas <b>H</b><sub>2</sub><b>O</b></p>
+    <small>This is small tag you can use it to but a notes on it</small>
+    <p>This is paragraph <mark>with a markable text</mark> on the paragraph</p>
+<!--_________________________________________________________-->
+<!-- Forms, Links, Img, and Input Tag -->
+<h2>--------Forms, Links, Img, Lists and Input Tag---------</h2>
+<a href="semantic elements.html" target="_blank" title="paganation">Htlm semantic elements</a><br>
+<a href="Div.html" target="_blank" title="paganation">Htlm Div elements</a><br>
+<a href="https://googl.com" target="_blank" title="go to google.com">Google</a><br>
+<a href="https://facebook.com" target="_blank" title="go to facebook.com">facebook</a><br>
+<a href="mailto : z2002tr@gmail.com">Contactme</a><br>
+<a href="#h90" >the heading of the page the h1</a><br>
+<img src="./DATA-IMAGES/Screenshot (154).png" alt="" width="80%" height="">
+<img src="./DATA-IMAGES/Screenshot (155).png" alt="" width="80%" height="">
+
+
+<form action="osama.php" method="post">
+    <label for="t">This is Input type Text</label>
+    <input id="t" type="text" name="userName" placeholder=" put yourName here" maxlength="40" minlength="10" autofocus></br>
+    <input type="text" name="" value="inital value for read Only" readonly></br>
+    <input type="text" name="" value="inital value" placeholder=" put yourName here" hidden></br>
+    <input type="text" name="" value="inital value"></br>
+
+
+    <label>This is Input type Number</label>
+    <input type="number" name="number"  placeholder="select a number" max="10" min="5"></br>
+    <label for="r">this is a range Input</label>
+    <input id="r" type="range" name="range"  value="0" min="0" max="1000" step="200"><br>
+    <label for="c">This is Input type Color</label>
+    <input id="c" type="color" name="color"><br>
+
+    <input list="programming" name="prog">
+
+    <datalist id="programming">
+        <option value="Python"> 
+        <option value="PHP">
+        <option value="C">
+    </datalist>
+
+    <input type="date">
+    <input type="month">
+    <input type="time"><br>
+
+    <label>This is Input type Password</label>
+    <input type="password" name="password" value="" placeholder="put your passwors" required max="5" min="100"></br>
+    
+    
+    <lable>This is Input type email</lable>
+    <input type="email" placeholder="Enter your email"><br>
+    <input type="email" placeholder="Paybal account" disabled><br>
+    
+    <hr>
+    <label>Upload</label>
+    <input type="file"><br>
+
+
+    <label>Search</label>
+    <input type="search"><br>
+
+
+    <label>URL</label>
+    <input type="URL"><br>
+
+    <label>This is Input type Date</label>
+    <input type="date" name="" value=""></br>
+    <!-- __________________________________________________ -->
+<input type="radio" name="os" value="windows" id="win" checked>
+<label for="win">windows</label><br>
+
+
+<input type="radio" name="os" value="Mac OS" id="mac">
+<label for="mac">MacBook</label><br>
+
+
+<input type="radio" name="os" value="Linux" id="L">
+<label for="L">Linux</label><br>
+
+<hr>
+
+<input type="checkbox" name="os" value="windows" id="w" checked>
+<label for="w">windows</label><br>
+
+
+<input type="checkbox" name="os" value="Mac OS" id="m">
+<label for="m">MacBook</label><br>
+
+
+<input type="checkbox" name="os" value="Linux" id="Li">
+<label for="Li">Linux</label><br>
+
+<hr> 
+
+    <label>This is a Drop Down Options</label>
+    <select name="color" id="color"  >
+        <option value="1">Red</option>
+        <option value="2" selected>green</option>
+        <option value="3">Blue</option>
+        <option value="4">Yellow</option>
+
+
+        <optgroup label="group-1">
+            <option value="5">Red5</option>
+            <option value="6">green6</option>
+            <option value="7">Blue7</option>
+            <option value="8">Yellow8</option>
+        </optgroup>
+
+
+        <optgroup label="group-2">
+            <option value="9">Red9</option>
+            <option value="10">green10</option>
+            <option value="11">Blue11</option>
+            <option value="12">Yellow12</option>
+        </optgroup>
+    </select><br>
+
+    <button>Click me</button><br>
+<textarea name="subject" cols="30" rows="10" placeholder="enter your paraph"></textarea><br>
+
+    
+    <input type="submit" name="" value="submit">
+    <input type="reset" name="" value="reset">
+</form><br>
+<!-- __________________________________ -->
+<!-- IFrame Tag -->
+<br>
+<label>This is an iframe usage</label><br>
+<img src="./DATA-IMAGES/28.10.2024_19.26.39_REC.png" width="80%" alt="test test test">
+<p><u>Example<u></u></p>
+<iframe width="80%" height="315" src="https://www.youtube.com/embed/W8C-0SxPhJs?si=yoYLSt79s70r-_Fi"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!--_______________________________-->
+<!-- Audio Tag -->
+    <audio controls loop muted autoplay>
+    <source src="./Music/creative-technology-showreel-241274.mp3">
+    </audio><br>
+    <!--______________________________-->
+    <!-- Video Tag -->
+    <p><u>Video tag</u></p>
+    <img src="./DATA-IMAGES/28.10.2024_19.49.28_REC.png" width="80%">
+    <p><u>Example</u></p>
+    <video controls src="./Videos/WhatsApp Video 2024-08-31 at 01.24.49_c4514b19.mp4" width="400" height="400" loop autoplay muted></video><br>
+    <!-- ______________________ -->
+    <!-- List Tag -->
+    <h2>----List Tag----</h2>
+    <img src="./DATA-IMAGES/31.10.2024_13.47.15_REC.png" width="80%"><br>
+    <label><b><u>This is Order list</u></b></label>
+    <ol>
+        <li>This is Order no: one</li>
+        <li>This is order no: two</li>
+            <ol reversed start="100">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+        <li>This is order no: three</li>
+    </ol>
+    <label><b><u>This is Un-Order list</u></b></label>
+    <ul>
+        <li>This is Order no: one</li>
+        <li>This is Order no: two</li>
+        <li>This is Order no: three</li>
+    </ul><br>
+    <dl>
+        <dt>Hthl</dt>
+        <dd>Language of the web</dd>
+        <dt>Css</dt>
+        <dd>the styling for the web</dd>
+    </dl>
+    <!-- _______________________ -->
+    <!-- Tables -->
+    <!--
+    tr = table row صف 
+    td = table colunm عمود
+    -->
+    <img src="./DATA-IMAGES/Tables-in-HTML.png" width="80%"><br>
+    <br>
+    <table border=1 width="80%" cellspacing="4">
+        <thead>
+            <tr>
+                <th align="center">County</th>
+                <th align="center">Literacy Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Egypt</td>
+                <td align="center">80%</td>
+                <td align="center">80%</td>
+            </tr>
+            <tr>
+                <td align="center">China</td>
+                <td align="center">74%</td>
+            </tr>
+            <tr>
+                <td align="center">India</td>
+                <td align="center">65%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td align="center">World</td>
+                <td align="center">76%</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
